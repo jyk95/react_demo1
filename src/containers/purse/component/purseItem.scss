@@ -1,0 +1,68 @@
+.purse_container{
+  width: 90%;
+  height: 140px;
+  margin: 5% 15px 0 5%;
+  position: relative;
+  .purse_img1{
+    width: 100%;
+    height: 100%;
+  }
+  .purse_img2{
+    height: 33px;
+    width: 33px;
+    position: absolute;
+    top: 8%;
+    left: 3%;
+  }
+  .purse_p1{
+    color: white;
+    font-size: 14px;
+    height:32px;
+    margin:0;
+    position: absolute;
+    line-height: 16px;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    top: 9%;
+    left: 16%;
+    width:78%;
+    display:table;
+    .name_span{
+      display:table-cell;
+      vertical-align:middle;
+    }
+  }
+  .node_div{
+    position:absolute;
+    color: white;
+    line-height: 20px;
+    font-size: 14px;
+    top:20%;
+    right:10%;
+    .wallet_vet{
+      right: 5%;
+      top: 25%;
+    }
+    .wallet_vtho{
+      right: 7%;
+      top: 25%;
+    }
+  }
+  .purse_span4{
+    color: white;
+    width: 90%;
+    /*超出边界换行*/
+    display:block;
+    word-break: break-all;
+    word-wrap: break-word;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: lighter;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+

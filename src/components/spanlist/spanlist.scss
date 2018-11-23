@@ -1,0 +1,22 @@
+.span_list {
+  position: relative;
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  .span_list_p1 {
+    position: absolute;
+    top:12px;
+    width:100%;
+    margin-left:15px;
+    margin-right:15px;
+    font-size:14px;
+    color: #6E6E6E;
+  }
+  .span_list_span1 {
+    position: absolute;
+    font-size: 11px;
+    color: #9F9F9F;
+    bottom: 5px;
+    right:15px;
+  }
+}

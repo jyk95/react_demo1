@@ -1,0 +1,14 @@
+.login_1{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  .login_1_box{
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+    span{
+      font-size: 12px;
+      color: #aaa;
+    }
+  }
+}

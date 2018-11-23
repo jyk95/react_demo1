@@ -1,0 +1,87 @@
+.address{
+  width: 100%;
+  background-color: #eee;
+  height: 60px;
+  .jiedian_address{
+    width: 100%;
+    background-color: #fff;
+    height: 40px;
+    border: 1px solid #eee;
+    .add_span{
+      line-height: 40px;
+      color: #292929;
+      font-size: 16px;
+      margin-left: 16px;
+    }
+  }
+  .textdiv{
+    width: 100%;
+    height:60px;
+    position:relative;
+    background-color:white!important;
+    textarea{
+      width:80%;
+      height: 36px;
+      align-items:center;
+      border-width: 0;
+      font-size: 14px;
+      color: #6E6E6E;
+      resize:none;
+      margin-left:16px;
+      margin-top:12px;
+    }
+    .adddiv1{
+      position: absolute;
+      width:40px;
+      top:36px;
+      right:13px;
+      height:15px;
+      .add_img{
+        height: 14px;
+        width: 14px;
+        float:left;
+        margin-left:3px;
+      }
+      .add_span1{
+        color: #9F9F9F;
+        font-size: 10px;
+        float:right;
+        line-height:15px;
+      }
+    }
+  }
+  .attention{
+    width:100%;
+    height: 48px;
+    margin: 10px 0;
+    word-break: break-all;
+    word-wrap: break-word;
+    position:relative;
+    p{
+      color: #D33D01;
+      font-size: 11px;
+      line-height: 18px;
+      position:absolute;
+      width:90%;
+      left:50%;
+      transform: translateX(-50%);
+    }
+  }
+  .jiaoyi_number{
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    input{
+      position: absolute;
+      top: 10px;
+      left: 16px;
+      height: 30px;
+      width: 80%;
+      border-radius: 15px;
+      border:1px solid #ddd;
+      padding-left:10px;
+      outline:none;
+    }
+  }
+}

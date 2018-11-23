@@ -1,0 +1,42 @@
+.introduction {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  .left_img {
+    position: absolute;
+    height: 14px;
+    left: 10px;
+  }
+  .left_span {
+    margin-left: 30px;
+    font-size: 16px;
+    color: #434242;
+  }
+  .right_div{
+    position: absolute;
+    right: 10px;
+    vertical-align: middle;
+    .right_span{
+      font-size: 13px;
+      color: #9F9F9F;
+      margin:0 14px 0 0;
+    }
+    .jiantou_img {
+      height: 14px;
+      width: 8px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 2px;
+    }
+  }
+
+}
+
+
+
+

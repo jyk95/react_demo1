@@ -1,0 +1,136 @@
+.detail_list {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  .span_box {
+    .span1 {
+      position: absolute;
+      top: 16px;
+      left: 15px;
+      font-size: 16px;
+      color: #292929;
+      font-weight: 600;
+    }
+    .span2 {
+      position: absolute;
+      top: 17px;
+      left: 62px;
+      color: #6E6E6E;
+      font-size: 12px;
+      text-align: center;
+    }
+    .span3 {
+      position: absolute;
+      top: 40px;
+      left: 15px;
+      color: #9F9F9F;
+      font-size: 11px;
+    }
+  }
+  .jiantou_img {
+    margin-right: 15px;
+    height: 14px;
+    width: 8px;
+  }
+}
+
+.tixian_box {
+  width: 100%;
+  height: 70px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  .tixian_box_div1 {
+    margin-left: 15px;
+    img {
+      position: absolute;
+      top: 26px;
+      height: 18px;
+      width: 15px;
+    }
+    input {
+      position: absolute;
+      line-height: 30px;
+      font-size: 14px;
+      left: 20px;
+      top: 50%;
+      width: 60%;
+      height:30px;
+      border:1px solid #ddd;
+      outline:none;
+      margin: 0;
+      padding-left: 20px;
+      border-radius:20px;
+      transform: translateY(-50%);
+      //text-align: center;
+    }
+  }
+  .tixian_box_div2 {
+    position: absolute;
+    right: 29px;
+    height: 20px;
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+    .tixian_box_span1 {
+      font-size: 14px;
+      color: #D33D01;
+      line-height: 20px;
+    }
+    .tixian_box_jiantou_img {
+      margin-right: 10px;
+      height: 5px;
+      width: 8px;
+      position: absolute;
+      right: -21px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+.tips_box {
+  height: 50px;
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 10px;
+  .tips_box_p1 {
+    position: absolute;
+    font-size: 12px;
+    color: #434242;
+    top: 10px;
+    left: 19px;
+    height:14px;
+    .tips_box_numberspan {
+      position: absolute;
+      font-size: 12px;
+      top: 0;
+      left: 70px;
+      color: red;
+    }
+  }
+  .tips_box_span2 {
+    position: absolute;
+    color: #6E6E6E;
+    font-size: 12px;
+    top: 10px;
+    right: 15px;
+  }
+  .tips_box_span3 {
+    position: absolute;
+    color: #F7CA44;
+    font-size: 10px;
+    top: 30px;
+    left: 18px;
+  }
+}
+

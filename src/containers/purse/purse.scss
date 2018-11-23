@@ -1,0 +1,27 @@
+.nopurse{
+  background-color: #eee;
+  width: 100%;
+  display: flex;
+  justify-content: center; /*水平居中*/
+  //align-items: center;
+  img{
+    width: 82px;
+    height: 82px;
+    top: 37%;
+    position: absolute;
+  }
+  .nopurse_span1{
+    display: block;
+    color: #292929;
+    font-size: 16px;
+    position: absolute;
+    top: 52%;
+  }
+  p{
+    color: #9F9F9F;
+    font-size: 11px;
+    height: 15px;
+    top: 55%;
+    position: absolute;
+  }
+}

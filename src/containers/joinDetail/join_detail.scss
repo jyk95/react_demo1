@@ -1,0 +1,16 @@
+.join_detail_list{
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  .detail_left_span{
+    font-size: 17px;
+    color: #434242;
+  }
+  .detail_right_span{
+    color: #434242;
+  }
+}

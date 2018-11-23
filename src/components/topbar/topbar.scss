@@ -1,0 +1,77 @@
+.headbar {
+  width: 100%;
+  height: 44px;
+  position: relative;
+  vertical-align: middle;
+  background:url("../../static/img/jiedian/rectangle.png") no-repeat 100% 100%;
+  span {
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 44px;
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-weight: normal;
+  }
+}
+.headbar1 {
+  width: 100%;
+  height: 44px;
+  position: relative;
+  vertical-align: middle;
+  background:url("../../static/img/jiedian/rectangle.png") no-repeat 100% 100%;
+  .header_leftimg{
+    position: absolute;
+    width: 9px;
+    height: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+  }
+  span {
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 44px;
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-weight: normal;
+  }
+  .imgdiv{
+    display: block;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    right: 10px;
+    top: 15px;
+    .jiahao{
+      height: 15px;
+      width: 15px;
+      vertical-align:inherit;
+    }
+  }
+}
+.headbar2 {
+  width: 100%;
+  height: 44px;
+  position: relative;
+  vertical-align: middle;
+  background-color: #fff;
+  img{
+    position: absolute;
+    width: 9px;
+    height: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+  }
+  span {
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 44px;
+    position: absolute;
+    color: #6E6E6E;
+    font-size: 17px;
+    font-weight: normal;
+  }
+}
