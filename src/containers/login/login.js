@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react'
+import React, { PureComponent, Fragment } from 'react'
 import { connect } from 'react-redux'
 import { actionCreators } from './store'
 import { withRouter } from 'react-router-dom'
@@ -31,7 +31,7 @@ class Login extends PureComponent {
     // console.log(loginstate)
     // if( loginstate === false){
       return (
-        <div style={{ height: this.state.windowHeight, backgroundColor: '#fff' }}>
+        <Fragment>
           <div className={'top_div'}>
             <img className={'bgc_img'} src={require('../../static/img/login/bgi.png')} alt=""/>
             <div className={'white_box'}>
@@ -63,22 +63,11 @@ class Login extends PureComponent {
             <img src={require('../../static/img/jiedian/button.png')} alt=""/>
             <span>登录</span>
           </div>
-        </div>
+        </Fragment>
       )
     // }else{
     //     //   return <Redirect to='/main'/>
     //     // }
-  }
-  componentDidMount () {
-    if (window.innerHeight) {
-      this.setState({
-        windowHeight: window.innerHeight
-      })
-    } else if ((document.body) && (document.body.clientHeight)) {
-      this.setState({
-        windowHeight: document.body.clientHeight
-      })
-    }
   }
 }
 
