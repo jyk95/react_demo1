@@ -1,8 +1,8 @@
 /* eslint-disable */
 import * as actionTypes from './actionTypes'
-import { fromJS } from 'immutable'
+// import { fromJS } from 'immutable'
 import { Toast } from 'antd-mobile'
-import { Link, BrowserRouter, withRouter } from 'react-router-dom'
+// import { Link, BrowserRouter, withRouter } from 'react-router-dom'
 import history from '../../../history'
 import axios from 'axios'
 import qs from 'qs'
@@ -26,11 +26,6 @@ export const func1 = (username, password) => {
         Toast.info('登录成功！', 2)
         dispatch(check(res.data.data))
         history.push('/main/home')
-        localStorage.setItem('username', res.data.data.username)
-        localStorage.setItem('mobile', res.data.data.mobile)
-        localStorage.setItem('uid', res.data.data.id)
-        localStorage.setItem('avater', res.data.data.avater)
-        localStorage.setItem('integral', res.data.data.integral)
       } else {
         Toast.info(res.data.message, 2)
       }

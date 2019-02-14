@@ -16,15 +16,23 @@ router.get('/', (req, res) => {
 })
 
 router.post('/api/login', (req, res) => {
-  // res.render('login.html')
   db.query(`SELECT id,username,mobile,avater,integral FROM user_info\
-   WHERE username='${req.body.username}' AND password='${req.body.password}'`, (err, data) => {
+   WHERE username='${req.body.username}'`, (err, data) => {
     if (err) {
       res.status(500).send('数据库错误').end()
     } else if (data.length === 0) {
-      res.status(200).send('用户不存在').end()
+      res.status(200).json({ status: false, message: '用户不存在' }).end()
     } else {
-      res.status(200).json({ data: data[0], status: true, message: '登录成功' }).end()
+      db.query(`SELECT id,username,mobile,avater,integral FROM user_info\
+      WHERE username='${req.body.username}' AND password='${req.body.password}'`, (err, data) => {
+        if (err) {
+          res.status(500).send('数据库错误').end()
+        } else if (data.length === 0) {
+          res.status(200).json({ status: false, message: '密码错误' }).end()
+        } else {
+          res.status(200).json({ data: data[0], status: true, message: '登录成功' }).end()
+        }
+      })
     }
   })
   // console.log(req.body.username)
